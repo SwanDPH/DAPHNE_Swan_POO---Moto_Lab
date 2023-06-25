@@ -1,0 +1,353 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    background-color: grey;
+    padding: 5px 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #f2f2f2;
+    transition :all 0.2s ease-in
+}
+
+li{
+    margin: 0px 16px;
+    border: 1px #f2f2f2 solid;
+    padding: 3px;
+    border-radius: 5px;
+    transition :all 0.2s ease-in
+}
+li:hover{
+    margin: 0px 16px;
+    border: 0px orange solid;
+    padding: 3px;
+}
+
+a:hover{
+    color: #eaa418
+}
+
+.optionNavBar {
+    display: flex;
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+body {
+    background-color: #333333;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+.logo svg{
+    margin-right: 10px;
+}
+
+h2 h3 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #555555;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #555555;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #FFAD33;
+}
+
+.moto-list {
+    width: 503px;
+    margin: 0 auto;
+    padding: 23px;
+    background-color: #555555;
+    border-radius: 4px;
+}
+
+.moto-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.moto-item-info {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.moto-item-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.moto-item-buttons button {
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.moto-item-buttons button:hover {
+    background-color: #FFAD33;
+}
+
+.add-moto-button {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.centrage{
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.divCentrage{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-moto-button button {
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-moto-button button:hover {
+    background-color: #FFAD33;
+}
+
+.imgMoto {
+    max-width: 270px;
+    max-height: 250px;
+}
+
+.imgMotoDetail {
+    max-width: 370px;
+    max-height: 350px;
+}
+
+.moto-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #555555;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.moto-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.moto-image img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.moto-details {
+    margin-bottom: 20px;
+}
+
+.moto-details h2 {
+    text-align: center;
+}
+
+.moto-details p {
+    line-height: 1.5;
+}
+
+.moto-buttons {
+    text-align: center;
+}
+
+.moto-buttons button {
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.moto-buttons button:hover {
+    background-color: #FFAD33;
+}
+
+.error {
+    color: red;
+}
+
+
+.action {
+    text-align: center;
+    font-size: 50px;
+}
+
+.marqueMoto {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.modelMoto {
+    text-align: center;
+    font-size: 39px;
+    font-weight: 600;
+}
+
+.divSuppression{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.back{
+    position: absolute;
+    top: 81px;
+    left: 56px;
+    opacity: 32%;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.back:hover{
+    opacity: 100%;
+}
+
+
+.flexColunm{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.filtre{
+    display: flex;
+    align-items: center;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    
+    .filtre a{
+        color: #f2f2f2;
+        font-size: 23px;
+        padding: 9px;
+        border: 2px solid #eab57c;
+        background-color: #da862a;
+        margin: 42px 12px;
+        border-radius: 11px;
+    }
+
+    .titreFiltre{
+        display: flex;
+    flex-direction: column;
+    margin: 44px 72px;
+    padding: 0px 175px;
+    }
+
+
+    .boutonAccueil{
+        width: 180px;
+    height: 180px;
+    font-size: 37px;
+    }
+
+/* MODALE */
+
+.modaleConfirmation {
+    display: flex;
+    color: antiquewhite;
+    font-size: 26px;
+    position: fixed;
+    top: 65px;
+    width: 100%;
+    height: 100%;
+    opacity: 95%;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boutonModale a{
+    border: solid 2px orange;
+        border-radius: 5px;
+        padding: 8px;
+        transition: 0.4s all ease-in
+    }
+.boutonModale a:hover{
+    background-color: aliceblue;
+    }
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
