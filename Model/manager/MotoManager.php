@@ -36,7 +36,11 @@ class MotoManager extends DbManager{
             'id' => $id
         ]);
         $resultatMoto = $query->fetch();
-        $motoTrouve = new Moto($resultatMoto['id'],$resultatMoto['marque'],$resultatMoto['modele'],$resultatMoto['type'],$resultatMoto['image']);
+
+        $motoTrouve = null;
+        if($resultatMoto){
+            $motoTrouve = new Moto($resultatMoto['id'],$resultatMoto['marque'],$resultatMoto['modele'],$resultatMoto['type'],$resultatMoto['image']);
+        }
         return $motoTrouve;
     }
 

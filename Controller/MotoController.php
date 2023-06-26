@@ -45,7 +45,12 @@ class MotoController
     public function detailMoto($id)
     {
         $Motos = $this->vc->getOne($id);
-        require 'view/moto/detailMoto.php';
+        if (is_null($Motos)) {
+            // header("Location: index.php?controller=default&action=notFound");
+            include 'view/error/error404.php';
+            die();
+        }
+            require 'view/moto/detailMoto.php';
     }
 
     public function addMoto()
